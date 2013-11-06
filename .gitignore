@@ -3,5 +3,6 @@ target/
 *.swo
 *.hi
 *.o
+*.class
 client
 

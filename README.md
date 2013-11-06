@@ -5,11 +5,11 @@ OAK Test
 -----------------
 The client was written in Haskell. In order to run it, you need first to install the [Haskell Platform](http://www.haskell.org/platform/) and then follow the steps below.
 
-* Disclaimer: I just liked the challenge of "brushing bits" in Haskell. I found that it could be interesting and, indeed, it was. :-)
+* Disclaimer: I just liked the challenge of "brushing bits" in Haskell. I thought that it could be interesting and, indeed, it was. :-)
 
 1.2. Directly
 -------------
-* Run "runhaskell Main.hs <serverAddress> <servicePortNumber>".
+* Run "runhaskell Main.hs \[serverAddress\] \[servicePortNumber\]".
 
 1.3. Compiling
 --------------
@@ -20,7 +20,7 @@ The client was written in Haskell. In order to run it, you need first to install
 -------------
 * Start GHCi;
 * Load file: ":l Main.hs";
-* Set arguments: ":set args <serverAddress> <servicePortNumber>" 
+* Set arguments: ":set args \[serverAddress\] \[servicePortNumber\]" 
 * Type: "main".
 
 2. Running SERVER 
